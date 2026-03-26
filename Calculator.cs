@@ -2,10 +2,10 @@
 
 public class Calculator{
     public int Max(int first, int second){
-        return 0;
+        return Math.Max(first, second);
     }
 
     public double Round(double value){
-        return 0.00;
+        return Math.Round(value, 3);
     }
 }
